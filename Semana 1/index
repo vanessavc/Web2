@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400italic,700' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8">
+    <title> Creative Wisdom</title>
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+
+<BODY>
+
+
+
+<SCRIPT type="text/javascript">
+  var0="Be regular and orderly in your life, so that you may be violent and original in your work. <br> <h4> Gustave Flauvert </h4>"
+  var1="Whatever you design, use it to raise the expectations of what can be achieved. <br> <h4> Paula Scher</h4>"
+  var2="The artist who aims at perfection in everything achieves it in nothing. <br> <h4> Eugene Delacroix </h4> "
+  var3="Lots and lots of people are creative when they feel like it, <br> but you're only going to become a professional if you do it when you don't feel like it. <br> And that emotional waiver is why this is your work and not you hobby. <br> <h4> Seth Godin </h4> " 
+  var4="Shifting from mindful to mindless work gives the brain time to process complex problems <br> in a relaxed state and also restore the energy necessary for the next round of mindful work <br> <h4> Erin Rooney Doland </h4>"
+  var5="Without deviation from the norm, progress is not possible. <br> <h4> Frank Zappa</h4>"
+  var6="Computers are to design as microwaves are to cooking.<br> <h4> Milton Glaser</h4>"
+  var7="The best way to accomplish serious design is to be totally and completely unqualified for the job. <br> <h4> Paula Scher</h4>"
+  var8="You can’t get to wonderful without passing through alright. <br> <h4> Andrew Zuckerman</h4>"
+  var9="Telling yourself you have all the time in the world, all the money in the world, <br> all the colors in the palette, anything you want - that just kills creativity. <br> <h4> Jack White </h4>" 
+  var10="A creator needs only one enthusiast to justify him. <br> <h4>Man Ray</h4>"
+  var11="You can't connect the dots looking forward, you can only connect them looking backwards. <br> <h4>Steve Jobs</h4>"
+  var12="If you have an idea, write it down, put it into your calendar and give yourself deadlines. Make that deadline holy. <br> <h4>Stefan Sagmeister</h4>"
+  var13="The computer is really good for editing your ideas, and it's really good for getting <br> your ideas ready for publishing out into the world, but it's not really good for generating ideas. <br> <h4>Austin Kleon</h4>"
+  var14="We are what we repeatedly do. Excellence, then, is not an act, but a habit. <br> <h4>Aristotle</h4>"
+  var15="The only art I’ll ever study is stuff that I can steal from. <br> <h4>David Bowie</h4>"
+  var16="Experts step outside their comfort zone and study themselves failing. <br> <h4>Josh Foer</h4>"
+
+  now=new Date()
+  num=(now.getSeconds() )%17
+
+  if (num == 0)
+    {cliche=var0}
+  if (num == 1)
+    {cliche=var1}
+  if (num == 2)
+     {cliche=var2}
+   if (num == 3)
+     {cliche=var3}
+   if (num == 4)
+     {cliche=var4}
+   if (num == 5)
+     {cliche=var5}
+   if (num == 6)
+     {cliche=var6}
+   if (num == 7)
+     {cliche=var7}
+   if (num == 8)
+     {cliche=var8}
+   if (num == 9)
+     {cliche=var9}
+   if (num == 10)
+     {cliche=var10}
+   if (num == 11)
+     {cliche=var11}
+    if (num == 12)
+     {cliche=var12}
+   if (num == 13)
+     {cliche=var13}
+   if (num == 14)
+     {cliche=var14}
+   if (num == 15)
+     {cliche=var15}
+   if (num == 16)
+     {cliche=var16}
+
+  document.write(cliche)
+
+  var bgcolorlist=new Array("#004358", "#138D90", "#14294A", "#FF8C00", "#FF4E3E", "#FD3C3C", "#04C750")
+
+document.body.style.background=bgcolorlist[Math.floor(Math.random()*bgcolorlist.length)]
+
+</SCRIPT>
+  <h5>#creativewisdom</h5>
+
+</BODY>
+</HTML>
+
+
+  
