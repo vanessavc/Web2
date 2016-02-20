@@ -1,0 +1,67 @@
+body {
+    background: url(../images/bg.jpg) no-repeat center center fixed; 
+}
+.container {
+    padding-top:5%;
+    margin-left: 5%;
+}
+
+.btn1, .btn2, .btn3{
+ 
+-webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Futura, sans-serif;
+  color: #ffffff;
+  font-weight: lighter;
+  font-size: 1.2em;
+  background: #000000;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  letter-spacing: 1px;
+    text-align: center;
+    margin-right: 3%;
+
+}
+
+a.btn1:hover, a.btn2:hover, a.btn3:hover {
+  background-color: #2d2d2d;
+
+
+
+text-decoration: none;
+}
+
+
+a.btn1:visited { 
+    background-color: #BFA21A;
+}
+
+a.btn2:visited {
+    background-color: #99281A;
+}
+
+a.btn3:visited {
+    background-color: #144184;
+}
+
+
+
+h1 {
+    color: black; 
+    margin-left: 5%;
+    margin-top: 5%;
+    font-family: Futura, sans-serif;
+    font-size: 3.2em;
+    margin-bottom: 3%;
+}
+
+
+
+p{
+    font-family: Futura;
+    font-size: 1.2em;
+    margin-left: 5%;
+    margin-right: 42%;
+
+}
