@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title> Hail to the Thief </title> 
+	<link rel="stylesheet" href="css/reset.css"> 
+	<link rel="stylesheet" href="css/style.css">
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+<h2>HAIL TO THE THIEF</h2>
+<h3>RADIOHEAD</h3>
+
+<div class="maincontainer">
+
+
+<p> Hail to the Thief is the sixth studio album by the English alternative rock band Radiohead, produced by Nigel Godrich and released on 9 June 2003. </p>
+
+<p>Hail to the Thief's artwork was created by Stanley Donwood, who has created the artwork for every Radiohead album since The Bends.The cover art, titled "Pacific Coast", is a road map of Hollywood with words and phrases taken from Los Angeles's roadside advertising, such as "God", "TV" and "oil", in place of buildings. This is how Donwood explained this artwork: </p>
+
+
+<div class="container">
+   <div class="column-left">
+    <img id="myImg" src="images/pacific.jpg" alt="Pacific Coast. 150cm x 150cm. Acrylic and blackboard paint on canvas. 2003." width="300" height="300"  >
+
+    <H6> Album cover. Click to enlarge. </H6>
+
+    
+
+
+
+   </div>
+
+   <div class="column-right">
+       <p> "Advertising is designed to be seductive and attractive and, in a lot of ways, it's very beautiful. But there's something unsettling about being continually sold something. I liked taking the elements of roadside advertising out of context because it removes the imperative and just goes to the essence of it – the pure heart of advertising." </p>
+
+          <p> "All these colours that I've used are derived from the petrol-chemical industry ... None of it is natural. It essentially comes from black sludge. We've created this incredibly vibrant society, but we're going to have to deal with the consequences sooner or later." </p>
+
+   </div>
+
+</div>
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">×</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+</script>
+
+</body>
+</html>
