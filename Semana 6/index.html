@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title> DR Jazz Festival </title> 
+	<link rel="stylesheet" href="css/reset.css"> 
+	<link rel="stylesheet" href="css/style.css">
+<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+<div>
+  <audio id="audio2" src="sonidos/bass.ogg"  autoplay>
+</div>
+
+
+  <div class="maincontainer">
+    <div class="titulo">
+    <h1> NOVEMBER 6TH 2016 <br>PUERTO PLATA</h1>
+  </div>
+  <div class="programa">
+    <ul> 
+      <li>Manuel Tejada (DR)</li>
+      <li>Berklee Global Jazz Institute (USA)</li>
+      <li>Tribute to Sandy Gabriel (DR)</li>
+      <li>David S&aacute;nchez Quintet (PR)</li>
+    </ul>
+  </div>
+
+
+
+
+
+    <img src="images/jazz.svg">
+  
+  <div class="container">
+    <h4>Listen to David S&aacute;nchez Quintet</h4>
+    <audio id="audio" src="sonidos/03.mp3" preload="auto"  ></audio>
+    <button id="play">Play</button>
+    <button id="stop">Stop</button>
+</div>
+
+</div>
+
+<script>
+var playBtn = document.getElementById('play');
+var stopBtn = document.getElementById('stop');
+
+var playSound = function() {
+  audio.play();
+};
+
+playBtn.addEventListener('click', playSound, false);
+stopBtn.addEventListener('click', function(){audio.pause()}, false);
+</script>
+</body>
+
+
+</html>
+

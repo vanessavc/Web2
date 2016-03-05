@@ -1,0 +1,94 @@
+body {
+    background: black;
+}
+
+.maincontainer img{
+float: right;
+height: 350px;
+margin-top: -160px;
+
+}
+
+button {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Roboto Condensed';
+  color: black;
+  font-size: 18px;
+  background: #CEA450;
+  padding: 8px 15px 8px 15px;
+  text-decoration: none;
+  border: none;
+  margin-right: 18px;
+  margin-left: 18px;
+  margin-top: 15px;
+}
+
+button:hover {
+  background: #947740;
+  text-decoration: none;
+}
+
+.container{
+  float: left;
+  width: 200px;
+  height: 80px;
+  padding-left: 40px;
+  margin-bottom: -40px;
+  margin-top: 80px;
+
+}
+
+.programa{
+  padding-top: 50px;
+  margin-top: 50px;
+
+  width: 600px;
+  height: 280px;
+}
+
+h4{
+color: #CEA450;
+font-family: 'roboto Condensed';
+}
+
+h1{
+  font-family: 'roboto condensed';
+  color: #CEA450;
+  font-size: 42px;
+  padding-top: 50px;
+  letter-spacing: 3px;
+}
+
+li{
+    font-family: 'roboto condensed';
+  color: #CEA450;
+  font-size: 22px;
+  font-weight: lighter;
+  line-height: 60px;
+  padding-left: 40px;
+}
+
+h2{
+  font-family: 'roboto condensed';
+  color: #CEA450;
+  font-size: 30px;
+  padding-top: 50px;
+}
+
+
+p{
+  color: #CEA450;
+  font-style: 'roboto condensed';
+  font-family: lighter;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+
+.maincontainer{
+margin: 0px auto;
+  height: 700px;
+  width: 1200px;
+}
