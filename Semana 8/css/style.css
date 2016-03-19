@@ -1,0 +1,164 @@
+
+
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(0, 0, 0, 1);
+}
+#custom-bootstrap-menu.navbar-default {
+    background-color: #333333;
+    font-family: "oswald";
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: white;
+    background-color: #333333;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: (#333333);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(157, 49, 35, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #ffffff;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #ffffff;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #9d3123;
+}
+
+
+
+.navbar-brand img{
+
+    margin-top: -5px;
+}
+
+
+.home{
+    background-color: #333333;
+}
+
+.download{
+    background-color: #e6e6e6;
+}
+
+.home img{
+    position: static;
+    margin: auto;
+}
+
+
+
+
+h3{
+    font-family: "oswald";
+    color: #333333;
+    padding-right: 200px;
+    letter-spacing: 2px;
+    font-weight: normal;
+   
+
+
+}
+
+.col-md-6 p {
+    padding-top: 150px;
+    font-family: "montserrat";
+    font-weight: lighter;
+    color: #333333;
+    letter-spacing: 2px;
+   
+}
+
+/*
+.col-md-6 p{
+   
+    font-size: 16px;
+    color: #58585B;
+    margin: auto;
+    padding-top: 205px;
+    font-family: "roboto condensed";
+}
+*/
+
+.col-md-6 {
+    margin: inherit;
+    font-size: 18px;
+    color: white;
+    font-family: "montserrat";
+    font-weight: normal;
+    color: #333333;
+   
+}
+
+
+
+.characters {
+    background-color: #9D3123;
+}
+
+
+.characters img{
+    position: static;
+    margin: auto;
+}
+
+
+.container-fluid {
+    position: static;
+    margin: auto;
+    
+}
+
+.container {
+    width: 1280px;
+    height: 800px;
+    position: static;
+}
+
+.container img{
+    padding-top: 160px;
+    padding-left: 60px;
+    margin-left: -30px;
+
+
+}
+
+
+.download img:hover {
+    opacity: .80;
+
+}
+
+.download p {
+    font-size: 24px;
+    padding-top: 30px;
+    font-weight: bold;
+    padding-left: 135px;
+    line-height: 10px;
+
+}
+
+
+
+.about {
+    background-color: #FF9E1D;
+    padding-left: -80px;
+}
+
+
+
