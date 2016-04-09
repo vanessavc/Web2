@@ -1,0 +1,193 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+
+
+	<title>Delivery Chavonero</title>
+	<link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="jquery.modal.css" type="text/css" media="screen"/>
+
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+     <style type="text/css">
+	     	#myform label.error {
+			  color: red;
+			  font-size: 11px;
+			  font-family: Helvetica, sans-serif;
+			  text-transform: lowercase;
+			  position: relative;
+			}
+
+     </style>
+</head>
+<body>
+
+
+
+
+
+  <div class="titulo"> 
+    <h1>DELIVERY CHAVONERO<h1>
+      <a href="#ex1" rel="modal:open"> <img src="images/info.svg" alt="info"> </a>
+  </div>
+
+
+    <h2> INFORMACI&Oacute;N SOBRE PEDIDO: </h2>
+
+  <div id="ex1" style="display:none;">
+    <h3> SOBRE DELIVERY CHAVONERO </h3>
+    <h4> Si eres estudiante de Chavón campus La Romana, probablemente te suena familiar alguno de los siguientes inconvenientes: </h4>
+            <ul>
+              <li> Tienes que hacer una diligencia entre semana pero tu horario de clases no te lo permite.</li>
+              <li> Debes bajar al pueblo a buscar algo pero perdiste la guagua y no quieres gastar dinero en taxi. </li>
+              <li> Se te antoja cenar algo de algun sitio que no tiene servicio a domicilio.</li>
+              <li> Es domingo y la pereza simplemente no te permite salir de tu casa y caminar.</li>    
+            </ul>
+
+<br>
+<h4> &iexcl;Gracias a nuestra nueva plataforma digital de mensajer&iacute;a puedes resolver esto y m&aacute;s en cuesti&oacute;n de clicks! <br><br> S&oacute;lo completa el formulario para realizar tu pedido. </h4>
+
+
+  </div>
+
+
+ <div id="ex2" style="display:none;">
+    <h3> BLIP BLUP</h3>
+    <h4> Si eres estudiante de Chavón campus La Romana, probablemente te suena familiar alguno de los siguientes inconvenientes: </h4>
+            <ul>
+              <li> Tienes que hacer una diligencia entre semana pero tu horario de clases no te lo permite.</li>
+              <li> Debes bajar al pueblo a buscar algo pero perdiste la guagua y no quieres gastar dinero en taxi. </li>
+              <li> Se te antoja cenar algo de algun sitio que no tiene servicio a domicilio.</li>
+              <li> Es domingo y la pereza simplemente no te permite salir de tu casa y caminar.</li>
+            </ul>
+  </div>
+
+
+  <!-- Link to open the modal -->
+
+
+
+	<form id="myform">
+
+		<label>A nombre de</label><br>
+
+		<input name="name" type="text" placeholder="Nombre">
+    <input name="apellido" type="text" placeholder="Apellido">
+		<br>
+    <br>
+      <label>Direcci&oacute;n</label><br>
+      <select class="form-control">
+<br>
+
+      <option>Residencia estudiantil</option>
+      <option>Propiedad en Casa de Campo</option>
+    <br>
+  <input name="address" type="text" placeholder="Nombre/N&uacute;mero">
+</select>
+<br>
+<br>
+
+		<label>E-mail</label><br>
+		<input name="email" type="text" placeholder="ejemplo@ejemplo.com">
+    
+    <br>
+		<br>
+
+		<label>Celular</label><br>
+		<input name="phone" type="text" id="phone_number">
+
+<br>
+		<br>
+
+		<label>Mensaje</label><br>
+		<textarea name="message" id="" cols="80" rows="6"></textarea>
+		<br>
+    <br>
+    <label for="exampleInputFile">Adjunta una foto de tu carnet de Chav&oacute;n para confirmar que eres estudiante</label>
+    <br>
+    <br>
+    <input type="file" name="file" id="exampleInputFile">
+  <br>
+  <br>
+  <div class="checkbox">
+    <label>&iquest;Quieres enterarte de cuando salga tu pedido? </label>
+    <br>
+    <label>
+      <input type="checkbox"> Notificar por email <br>
+      <input type="checkbox"> Notificar por WhatsApp <br>
+    </label>
+<br>
+    <button form="myform" type="submit" class="send"><img src="images/arrow.svg" alt="info">ENVIAR</button>
+
+
+
+	</form>
+
+
+<script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="js/jquery.modal.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/jquery.maskedinput.js" type="text/javascript"></script>
+<script src="js/jquery.validate.min.js" type="text/javascript"></script>
+
+<script>
+$().ready(function() {
+  $("#myform").validate({
+    rules: {
+      name: "required",
+      apellido: "required",
+      address: "required",
+      message: "required",
+      id: "required",
+      phone: "required",
+      file: "required",
+      code: {
+        required: true,
+        minlength: 16,
+        maxlength: 16,
+        number: true
+      },
+      activity: {
+      	required: true
+      },
+      email: {
+      required: true,
+      email: true
+      },
+    },
+    messages: {
+      name: "Por favor introduzca su nombre",
+      apellido: "Por favor introduzca su apellido",
+      address: "Por favor especifique la direcci&oacute;n de env&iacute;o",
+      phone: "Por favor introduzca su n&uacute;mero de celular",
+      message: "Por favor escriba una descripci&oacute;n de su pedido",
+      code: {
+        required: "Este campo es obligatorio",
+        minlength: "Su c&oacute;digo NIF contiene 16 d&iacute;gitos",
+        maxlength: "Su c&oacute;digo NIF contiene 16 d&iacute;gitos",
+        number: "Su c&oacute;digo NIF contiene 16 d&iacute;gitos"
+      },
+      activity: {
+        required: "Por favor selecciona una actividad"
+      },
+      email: {
+        required: "Por favor introduzca su e-mail",
+        email: "Por favor introduzca un e-mail válido"
+      },
+    }
+  });
+});
+
+
+
+jQuery(function($){
+   $("#phone_number").mask("(999) 999-9999");
+});
+</script>
+
+</body>
+</html>
