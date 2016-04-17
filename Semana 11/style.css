@@ -1,0 +1,87 @@
+html,
+body {
+
+  background: transparent;
+}
+
+html {
+  background-image: url(images/bg1.png);
+  background-repeat: repeat; 
+}
+
+.form-control {
+  background-color: rgba(85, 85, 85, 0.4);
+  color: black;
+  border-radius: 0px;
+  font-family: "Walter Turncoat";
+}
+
+h2{
+  font-family: "Walter Turncoat";
+  font-size: 5.66em;
+  letter-spacing: 0.5px;
+  text-align: left;
+  padding-bottom: 70px;
+
+}
+
+p{
+  font-family: "Kreon";
+  font-size: 1.4em;
+  font-weight: lighter;
+  text-align: left;
+  line-height: 28px;
+  padding-bottom: 20px;
+}
+.container {
+  width: 580px;
+  margin-top: 80px;
+}
+
+.button-group {
+  margin-bottom: 20px;
+}
+
+.counter {
+  display: inline;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+
+.posts {
+  clear: both;
+  list-style: none;
+  padding-left: 0;
+  width: 100%;
+}
+
+
+.posts li {
+  font-family: "Walter Turncoat";
+  font-weight: bold;  
+  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  word-wrap: break-word;
+  min-height: 42px;
+  text-align: left;
+}
+
+.btn{
+font-family: "Walter Turncoat";
+font-size: 14px;
+letter-spacing: 1.3px;
+border-radius: 0px;
+background-color: black;
+}
+
+.btn:hover{
+  opacity: 0.7;
+background-color:black;}
+
+.btn:focus{
+  opacity: 0.7;
+background-color:black;}
